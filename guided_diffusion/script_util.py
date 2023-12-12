@@ -34,7 +34,7 @@ def classifier_defaults():
         classifier_width=128,
         classifier_depth=2,
         classifier_attention_resolutions="32,16,8",  # 16
-        classifier_use_scale_shift_norm=True,  # False
+        classifier_use_scale_shift_norm=True,  # enable us to incorporate the time step as well as class information to the model
         classifier_resblock_updown=True,  # False
         classifier_pool="attention",
     )
