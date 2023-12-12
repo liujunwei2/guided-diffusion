@@ -208,7 +208,7 @@ def create_classifier_and_diffusion(
         classifier_width,
         classifier_depth,
         classifier_attention_resolutions,
-        classifier_use_scale_shift_norm,
+        classifier_use_scale_shift_norm, #enable us to incoperate the class as well as the time step information into the model
         classifier_resblock_updown,
         classifier_pool,
     )
